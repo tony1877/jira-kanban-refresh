@@ -1,0 +1,16 @@
+// ==UserScript==
+// @name        Jira-Refresh
+// @namespace   Violentmonkey Scripts
+// @match       THE_URL_TO_YOUR_KANBAN_HERE
+// @grant       none
+// @version     1.0
+// @author      Salvadori
+// @description 03/11/2020, 18:26
+// ==/UserScript==
+
+var event = 60000; // in ms
+
+setInterval(function(){
+    document.querySelector('.js-quickfilter-button.first').click();
+  	document.querySelector('.js-quickfilter-button.first').click();
+	}, event)
